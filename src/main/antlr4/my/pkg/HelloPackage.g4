@@ -1,9 +1,5 @@
 grammar HelloPackage;
 
-@header {
-package my.pkg;
-}
-
 
 // Parser
 start : stmt* ;

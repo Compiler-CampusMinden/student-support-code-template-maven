@@ -23,19 +23,19 @@ public class Main {
     ParseTree tree = parser.start(); // Start-Regel
     IO.println(tree.toStringTree(parser));
 
-    // Einlesen über den Classpath
+    // Einlesen über den Classpath (für Ressourcen)
     IO.readln("next?> ");
-    try (InputStream in = Main.class.getResourceAsStream("/cpp/vars.cpp")) {
+    try (InputStream in = Main.class.getResourceAsStream("/cpp/Makefile")) {
       String text = new String(in.readAllBytes(), StandardCharsets.UTF_8);
-      IO.println("\n\n/cpp/vars.cpp");
+      IO.println("\n\n/cpp/Makefile");
       IO.println(text);
     }
 
-    // Einlesen über Dateisystem
+    // Einlesen direkt über Dateisystem (nur für nicht-Ressourcen!)
     IO.readln("next?> ");
-    URL url = Main.class.getResource("/cpp/expr.cpp");
+    URL url = Main.class.getResource("/cpp/Makefile");
     String txt = Files.readString(Path.of(url.toURI()), StandardCharsets.UTF_8);
-    IO.println("\n\n/cpp/expr.cpp");
+    IO.println("\n\n/cpp/Makefile");
     IO.println(txt);
   }
 }
