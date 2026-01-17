@@ -90,19 +90,19 @@ tun.
 > **Hinweis**: Sorgen Sie dafür, dass Ihre IDE tatsächlich auch die Projekteinstellungen von
 > Maven übernommen hat und auch mit Maven baut!
 >
-> Check, ob die **Projekteinstellungen** in IntelliJ passen: 1. Menü
-> `File > Project Structure > Project Settings > Project` sollte für Ihr Projekt als SDK ein
-> "Java 25" zeigen: ![](img/ij-projectsettings-sdk.png) 2. Menü
-> `File > Project Structure > Project Settings > Libraries` sollte für Ihr Projekt Jar-Files
-> für ANTLR4 zeigen: ![](img/ij-projectsettings-libs.png)
+> Check, ob die **Projekteinstellungen** in IntelliJ passen:
+> 1.  Menü `File > Project Structure > Project Settings > Project` sollte für Ihr Projekt als
+>     SDK ein "Java 25" zeigen: ![](img/ij-projectsettings-sdk.png)
+> 2.  Menü `File > Project Structure > Project Settings > Libraries` sollte für Ihr Projekt
+>     Jar-Files für ANTLR4 zeigen: ![](img/ij-projectsettings-libs.png)
 >
-> Check, ob **IntelliJ mit Maven baut**: 1. Menü
-> `IDEA > Settings > Build, Execution, Deployment > Build Tools > Maven` sollte auf den
-> Maven-Wrapper umgestellt sein: ![](img/ij-setting-mavenwrapper.png). 2. Menü
-> `IDEA > Settings > Build, Execution, Deployment > Build Tools > Maven > Runner` sollte der
-> Schalter "Delegate IDE build/run actions to Maven" aktiviert sein:
-> ![](img/ij-setting-mavenbuild.png) und unter "JRE" sollte das für das Projekt verwendete JRE
-> eingestellt sein, d.h. aktuell Java 25.
+> Check, ob **IntelliJ mit Maven baut**:
+> 1.  Menü `IDEA > Settings > Build, Execution, Deployment > Build Tools > Maven` sollte auf
+>     den Maven-Wrapper umgestellt sein: ![](img/ij-setting-mavenwrapper.png)
+> 2.  Menü `IDEA > Settings > Build, Execution, Deployment > Build Tools > Maven > Runner`
+>     sollte der Schalter "Delegate IDE build/run actions to Maven" aktiviert sein:
+>     ![](img/ij-setting-mavenbuild.png) und unter "JRE" sollte das für das Projekt verwendete
+>     JRE eingestellt sein, d.h. aktuell Java 25.
 
 ## License
 
