@@ -27,7 +27,7 @@
 
         <compiler.plugin.version>3.16.0</compiler.plugin.version>
         <surefire.version>3.6.0</surefire.version>
-        <exec.plugin.version>3.6.3</exec.plugin.version>
+        <exec.plugin.version>3.6.4</exec.plugin.version>
         <build.helper.plugin.version>3.6.2</build.helper.plugin.version>
     </properties>
 
